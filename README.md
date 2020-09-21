@@ -1,44 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# <center>Lee Design</center>
+---
+<center>Lee-Design 由 React.js 实现，开发和服务于企业级后台产品。</center>
 
-## Available Scripts
+![UI.jpg](https://img-blog.csdnimg.cn/img_convert/5f7c9c9d226614bb09eeb4bd60e3b7c0.png)
+## 😋 特性
 
-In the project directory, you can run:
+- 提炼自企业级中后台产品的交互语言和视觉风格。
+- 开箱即用的高质量 React 组件。
+- 使用 TypeScript 构建，提供完整的类型定义文件。
+- 需求决定组件。
 
-### `yarn start`
+## 😏 授权协议
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[MIT](https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/LICENSE)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 😌 支持环境
 
-### `yarn build`
+- React `^16.8.0` [(https://www.npmjs.org/package/ng-zorro-antd)
+- 现代浏览器，以及 Internet Explorer 11+
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🎨 设计规范
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`lee-design` 与 Ant Design 设计规范看齐。
 
-### `yarn eject`
+## 📦 安装
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+$ mkdir new-project
+$ cd new-project
+$ npm install leed --save
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🔨 使用
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+将想要使用的组件模块引入到你的 `MyComponent.ts` 文件。
 
-## Learn More
+```ts
+import { Button } from 'leed';
+<>
+	...
+	<Button btnType="primary" size="large" > 你的第一个leed组件 </Button>
+</>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## 🔗 链接
+
+* [lee-desgin](https://gitee.com/itleeyw/lee-design)
+* [lee-desgin 官方文档](http://itleeyw.gitee.io/lee-design-story-book/?path=/docs/start--welcome)
+* [leed-npm](https://www.npmjs.com/package/leed)
+
