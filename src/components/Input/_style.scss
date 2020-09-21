@@ -1,0 +1,98 @@
+.lee-input-wrapper {
+    display: flex;
+    width: 10%;
+    margin-bottom: 30px;
+    position: relative;
+    .icon-wrapper {
+        position: absolute;
+        height: 100%;
+        width: 35px;
+        justify-content: center;
+        color: $input-color;
+        left: calc(100% + 8px);
+        top: 0;
+        display: flex;
+        align-items: center;
+        svg {
+            color: $input-placeholder-color
+        }
+    }
+}
+
+.icon-wrapper+.lee-input-inner {
+    padding-right: 35px;
+}
+
+.lee-input-inner {
+    width: 100%;
+    padding: $input-padding-y $input-padding-x;
+    font-family: $font-family;
+    font-size: $input-font-size;
+    font-weight: $input-font-weight;
+    line-height: $input-line-height;
+    color: $input-color;
+    background-color: $input-bg;
+    background-clip: padding-box;
+    border: $input-border-width solid $input-border-color;
+    border-radius: $input-border-radius;
+    box-shadow: $input-focus-box-shadow;
+    transition: $input-transition;}
+    .lee-input-inner:focus {
+      color: $input-focus-color;
+      background-color: $input-focus-bg;
+      border-color: $input-focus-border-color;
+      outline: 0;
+      box-shadow: $input-focus-shadow-color; }
+    .lee-input-inner::placeholder {
+      color: $input-placeholder-color;
+      opacity: 1; }
+    .lee-input-inner:disabled, .lee-input-inner[readonly] {
+      background-color: $input-disabled-bg;
+      cursor: not-allowed;
+      opacity: 1; }
+  
+  .lee-input-group-prepose,
+  .lee-input-group-postposition {
+    display: flex;
+    align-items: center;
+    padding: $input-padding-y $input-padding-x;
+    margin-bottom: 0;
+    font-size: $input-font-size;
+    font-weight: $input-font-weight;
+    line-height: $input-line-height;
+    color: $input-color;
+    text-align: center;
+    white-space: nowrap;
+    background-color: $input-bg;
+    border: $input-border-width solid $input-border-color;
+    border-radius: $input-border-radius; }
+  
+  .lee-input-group-postposition + .lee-btn {
+    padding: 0;
+    border: 0; }
+  .input-group > .lee-input-group-prepose {
+    margin-right: 10px;
+  }
+  .input-group > .lee-input-group-postposition {
+    margin-left: 10px;
+  }
+  .input-group > .lee-input-group-prepose,
+  .input-group.input-group-postposition > .lee-input-inner {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  
+  .input-group > .lee-input-group-postposition,
+  .input-group.input-group-prepose > .lee-input-inner {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  
+  .input-size-small .lee-input-inner {
+    padding: $input-padding-y-small $input-padding-x-small;
+    font-size: $input-font-size-small;
+    border-radius: $input-border-radius-small; }
+  
+  .input-size-large .lee-input-inner {
+    padding: $input-padding-y-large $input-padding-x-large;
+    font-size: $input-font-size-large;
+    border-radius: $input-border-radius-large; }
+  

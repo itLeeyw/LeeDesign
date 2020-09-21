@@ -1,0 +1,38 @@
+.item-highlighted {
+    background: $primary;
+    color: $white;
+}
+
+
+.lee-auto-complete {
+    position: relative; 
+  
+  .lee-suggestion-list {
+    list-style: none;
+    padding-left: 0;
+    white-space: nowrap;
+    position: absolute;
+    background: #fff;
+    z-index: 100;
+    top: calc(100% + 8px);
+    left: 0;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);
+    width: 100%;
+    .lee-suggestion-list .suggstions-loading-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 75px; }
+    .lee-suggestion-list .suggestion-item {
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      transition: color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+      color: #212529; }
+      .lee-suggestion-list .suggestion-item.is-active {
+        background: #0d6efd !important;
+        color: #fff !important; }
+      .lee-suggestion-list .suggestion-item:hover {
+        color: #0d6efd !important; }
+    }
+}
